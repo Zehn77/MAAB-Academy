@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-border {
+  border: 24px solid;
+  border-image-source: linear-gradient(219.61deg, rgba(245, 245, 247, 0.72) 30.68%, rgba(245, 245, 247, 0.24) 94.13%);
+  /* You can adjust the border-image-slice, border-image-width, and border-image-outset to control the appearance */
+  border-image-slice: 1;
+  border-image-width: 24px;
+  border-image-outset: 0;
+  /* Make sure to add a background color so the gradient border is visible */
+  background-color: #fff; /* You can change the background color as needed */
+  /* Add padding to the element if needed */
+  padding: 20px; /* Adjust the padding as needed */
+}
